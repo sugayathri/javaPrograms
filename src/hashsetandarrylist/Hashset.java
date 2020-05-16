@@ -13,6 +13,9 @@ public class Hashset {
 		s.add(4);
 		//duplicate removed
 		s.add(4);
+		s.add(10);
+		s.add(10);
+		
 		for(Integer temp:s)
 		{
 			System.out.println(temp);
